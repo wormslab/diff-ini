@@ -1,0 +1,23 @@
+{
+  "name": "diff-ini",
+  "version": "1.0.0",
+  "description": "help you to compare ini file format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wormslab/diff-ini.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wormslab/diff-ini/issues"
+  },
+  "homepage": "https://github.com/wormslab/diff-ini#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "lodash": "^3.10.1"
+  }
+}

@@ -5,9 +5,9 @@
     , reader = require('./lib/iniReader');
     , differ = require('./lib/diffini');
 
-  module.exports = function(ld, rd, options) {
-    let ld = reader(lf);
-    let rd = reader(rf);
+  module.exports = function(ls, rs, options) {
+    let ld = reader(ls);
+    let rd = reader(rs);
     return differ(ld, rd);
   }
 })();

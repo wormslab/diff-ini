@@ -1,5 +1,5 @@
 {
-  "name": "diff-ini",
+  "name": "diff-ini-format",
   "version": "1.0.0",
   "description": "help you to compare ini file format",
   "main": "index.js",
@@ -10,14 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/wormslab/diff-ini.git"
   },
-  "author": "",
+  "author": "wormslab",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wormslab/diff-ini/issues"
   },
   "homepage": "https://github.com/wormslab/diff-ini#readme",
   "dependencies": {
-    "co": "^4.6.0",
     "lodash": "^3.10.1"
   }
 }

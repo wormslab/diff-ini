@@ -1,8 +1,8 @@
 (function() {
   "use strict";
 
-  let fs = require('fs');
-    , reader = require('./lib/iniReader');
+  let fs = require('fs')
+    , reader = require('./lib/iniReader')
     , differ = require('./lib/diffini');
 
   module.exports = function(ls, rs, options) {

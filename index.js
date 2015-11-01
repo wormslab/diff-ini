@@ -1,17 +1,13 @@
 (function() {
   "use strict";
 
-  let reader = require('./lib/iniReader');
-  let differ = require('./lib/diffini');
-  let p = reader('./sample.ini');
+  let fs = require('fs');
+    , reader = require('./lib/iniReader');
+    , differ = require('./lib/diffini');
 
-  p.then(function(data) {
-    // console.log(data);
-  });
-
-  differ('./sample.ini', './sample-diff.ini').then(function(ret) {
-    console.log(require('util').inspect(ret, { colors: true, depth: null}));
-    console.log(ret.section.child.scope)
-    // console.log(ret);
-  });
+  module.exports = function(ld, rd, options) {
+    let ld = reader(lf);
+    let rd = reader(rf);
+    return differ(ld, rd);
+  }
 })();

@@ -1,6 +1,6 @@
 {
   "name": "diff-ini-format",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "help you to compare ini file format",
   "main": "index.js",
   "scripts": {
